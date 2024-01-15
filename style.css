@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Salsa&family=Shrikhand&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    cursor:pointer;
+    
+}
+h1{
+    font-size:6rem;
+}
+
+
+.poem{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    
+}
+.poem1> h1{
+    font-family: 'Lemon', serif;
+color:blue;
+}
+.poem1 > h1>span{
+    color:yellow
+
+}
+.poem2> h1{
+    font-family: 'Salsa', cursive;
+color:purple;
+}
+.poem2 > h1>span{
+    color:green;
+
+}
+.poem3> h1{
+    font-family: 'Lemon', serif;
+color:goldenrod;
+}
+.poem3 > h1>span{
+    color:aqua;
+
+}
+
+.poem4> h1{
+    font-family: 'Salsa', cursive;
+color:orange;
+}
+.poem4 > h1>span{
+    color:coral;
+
+}
+
+
+
+
+nav{
+    display:flex;
+align-items:center;
+justify-content:space-around;
+height:80px;
+background-color:rgb(204, 68, 204);
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+} 
+ul li {
+    padding:40px;
+    list-style:none;
+}
+ul li a{
+    font-size:1.2rem;
+    text-decoration:none;
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.poem-para{
+    width:50%;
+    margin:0px auto ;
+    margin-top:50px;
+}
+.poem-para>p{
+    text-align:center;
+    color:green;
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
